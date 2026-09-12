@@ -1,0 +1,50 @@
+---
+title: Zambo MCP Server
+slug: zambo-mcp-server
+category: mcp
+description: >-
+  Open-source MCP execution layer: 120 native tools across 17 products
+  (code audit, lead gen, price tracking, payments, prompt defense) behind
+  one zero-auth endpoint. Free 20 calls/tool/day, no account.
+cardDescription: Give any AI 120 execution tools through one MCP URL. Free, no account.
+seoTitle: Zambo MCP Server for Claude
+seoDescription: >-
+  Connect Claude to Zambo's 120 native MCP tools via one zero-auth endpoint.
+  Free 20 calls/tool/day, no account.
+author: zambodotdev
+authorProfileUrl: "https://github.com/zambodotdev"
+submittedBy: zambodotdev
+submittedByUrl: "https://github.com/zambodotdev"
+dateAdded: "2026-09-12"
+repoUrl: "https://github.com/zambodotdev/zambo-mcp"
+documentationUrl: "https://zambo.dev/for-agents/"
+packageUrl: "https://www.npmjs.com/package/zambo"
+installable: true
+installCommand: "npx zambo install"
+usageSnippet: >-
+  Add https://zambo.dev/api/mcp to any MCP client, type a job, get a receipt.
+copySnippet: |-
+  {
+    "mcpServers": {
+      "zambo": {
+        "url": "https://zambo.dev/api/mcp"
+      }
+    }
+  }
+configSnippet: |-
+  {
+    "mcpServers": {
+      "zambo": {
+        "url": "https://zambo.dev/api/mcp"
+      }
+    }
+  }
+estimatedSetupTime: 2 minutes
+difficulty: beginner
+retrievalSources:
+  - "https://github.com/zambodotdev/zambo-mcp"
+  - "https://zambo.dev/for-agents/"
+  - "https://zambo.dev/.well-known/llms.txt"
+prerequisites:
+  - An MCP client (Claude Code, Cursor, Windsurf, Cline, or any MCP-compatible host).
+---
