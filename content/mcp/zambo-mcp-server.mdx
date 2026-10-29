@@ -49,3 +49,15 @@ retrievalSources:
 prerequisites:
   - An MCP client (Claude Code, Cursor, Windsurf, Cline, or any MCP-compatible host).
 ---
+
+## Content
+
+Zambo is the verifiable work layer for AI: 153 tools behind one MCP endpoint at https://zambo.dev/mcp, covering code audit, lead generation, price tracking, payments, prompt defense, memory, and cross-AI handover. Add the endpoint to any MCP client and the tools are available with no account and no API key.
+
+Every job run through Zambo issues a verifiable receipt (an AER-1 record, IETF Internet-Draft draft-zambo-aer1-26) that lets anyone check the saved result has not changed since it was saved. The handover tools wrap up a session in one AI, files, open loops, and next steps included, and let another AI pick it up and continue. Free use is 20 calls plus 1 wrap-up every day, and picking up in another AI is always free; the Day Pass is $0.99 for unlimited use for 24 hours.
+
+## Source Review
+
+- https://github.com/zambodotdev/zambo-mcp
+- https://zambo.dev/for-agents/
+- https://zambo.dev/.well-known/llms.txt
