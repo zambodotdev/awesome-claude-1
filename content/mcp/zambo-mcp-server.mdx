@@ -52,6 +52,10 @@ privacyNotes:
   - "Zambo is a hosted remote MCP endpoint: tool calls and their inputs are sent to zambo.dev, and Zambo stores a receipt record of each job (inputs, outputs, and content hashes) that can later be verified or shared by link."
   - "No account or API key is required for free use. The memory and handover tools store user-supplied content on zambo.dev so it can be recalled later or picked up in another AI session."
   - "Paid use is optional: humans pay by card through PayPal and agents pay in USDC on Base. Zambo does not collect or store card numbers."
+safetyNotes:
+  - "Zambo is a hosted remote MCP server: connecting a client sends tool calls to zambo.dev, and the server runs no code on the user's machine. The optional npx install command only writes Zambo into the client's MCP configuration."
+  - "Some tools write or act externally: the memory and handover tools store content on zambo.dev, audit and research tools fetch public web sources, and workflow tools record job state that later sessions rely on."
+  - "Payments are opt-in: a Day Pass costs $0.99, paid by card through PayPal for humans or in USDC on Base for agents. Review audits, prices, and lead data before acting on them in high-stakes decisions."
 ---
 
 ## Content
